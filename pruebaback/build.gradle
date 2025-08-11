@@ -41,6 +41,6 @@ dependencies {
 }
 
 tasks.named('test') {
-	useJUnitPlatform()
 	archiveFileName = 'app.jar'
+	useJUnitPlatform()
 }
